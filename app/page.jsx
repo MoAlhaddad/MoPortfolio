@@ -11,7 +11,7 @@ const Home = () => {
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
      {/* text */}
-     <div className="text-center xl:text-left">
+     <div className="text-center xl:text-left order-2 xl:order-none">
       <span className="text-xl">Software Developer</span>
       <h1 className="h1">Hello I'm <br /> <span className="text-accent">Mohamad Alhaddad</span></h1>
      <p className="max-1-[500px] mb-9 text-white/80">I specialize in developing sophisticated digital solutions and possess expertise in a wide range of programming languages and technologies</p>
@@ -28,7 +28,9 @@ const Home = () => {
      
      </div>
       {/** photo */}
+      <div className="order-1 xl:order-none mb-8 xl:mb-0">
       <Photo />
+      </div>
      </div>
       </div>
     </section>
