@@ -11,12 +11,21 @@ const Photo = () => {
         {/* image */}
         <motion.div initial={{opacity:0}} animate={{opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeInOut"},
-    }} className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten">
+    }} className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
             <Image src="/assets/profilemo.jpg" priority quality={100} fill alt="" className="object-contain" />
         </motion.div>
         {/*circle */}
         <motion.svg className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]" fill="transparent" viewBox="0 0 506 506" xmins="http://www.w3.org/2000/svg">
-            <motion.circle />
+            <motion.circle cx="253" cv="253" r="250" stroke="#00ff99" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" initial={{strokeCashArray:"24 10 0 0"}} animate={{
+                strokeDasharray: ["15 128 25 25", "16 25 92 72", "4 258 22 22"],
+                rotate: [120,360],
+            }}
+            transition={{
+                duration: 20,
+                repeat:Infinity,
+                repeatType: "reverse",
+            }}
+            />
         </motion.svg>
     </motion.div>
   </div>
