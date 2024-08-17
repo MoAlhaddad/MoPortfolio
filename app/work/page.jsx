@@ -31,9 +31,24 @@ const projects = [
     github: 'https://github.com/MoAlhaddad/AWS-NextJS-Inventory-App'
 
   },
+  {
+    "num": "02",
+    "category": "Fullstack",
+    "title": "FullStack Blogger Application",
+    "description": "I developed a comprehensive FullStack Blogger Application using Next.js, MongoDB, and TailwindCSS. This platform allows content creators to efficiently share their thoughts and manage their blogs. Next.js ensures high performance and SEO benefits through server-side rendering and static site generation. MongoDB provides secure and fast data access, while TailwindCSS offers a modern, responsive design across all devices. I used Uploadthing for seamless image uploads, enhancing the CMS capabilities of the application. Key features include an admin dashboard, CRUD functionality for blog posts, an intuitive CMS with rich text editing and image uploads, a commenting system, responsive design, SEO optimization, and performance enhancements.",
+    "stack": [
+        { "name": "Next.js" },
+        { "name": "MongoDB" },
+        { "name": "TailwindCSS" },
+        { "name": "Uploadthing" }
+    ],
+    "image": "/assets/work/blogger.png",
+    "live": "https://next-blog-44qrp4bpg-moalhaddads-projects.vercel.app/",
+    "github": "https://github.com/MoAlhaddad/NextBlog"
+},
 
   {
-    num: '02',
+    num: '03',
     category: 'FullStack',
     title: 'Patient Admin Managment App',
     description: "The Fullstack Next.js Patient Care App leverages Appwright, TailwindCSS, ShadUI, and Twilio to offer a seamless healthcare experience. Users can conveniently choose their preferred doctor, upload their identification documents, and schedule appointments all within a user-friendly interface. This app aims to streamline patient care by integrating essential functionalities into one cohesive platform, ensuring a smooth and efficient process for both patients and healthcare providers.",
@@ -50,7 +65,7 @@ const projects = [
 
   },
   {
-    num: '03',
+    num: '04',
     category: 'FullStack',
     title: 'Ai Content Generator App',
     description: "Introducing my Fullstack Next.js AI Content Creator app! This innovative solution leverages Next.js for fast web applications, Drizzle Database for efficient data management, Gemini API for AI-driven content generation, TailwindCSS for responsive design, and Clerk for secure authentication. Generate high-quality content effortlessly, enjoy a seamless cross-device experience, and manage users securely. Perfect for marketers, bloggers, and business owners. Create engaging content with ease!",
@@ -61,7 +76,7 @@ const projects = [
 
   },
   {
-    num: '04',
+    num: '05',
     category: 'Frontend',
     title: 'Youtube Clone',
     description: "This YouTube Clone application, built with React and utilizing the YouTube API, offers users a seamless video streaming experience. The app mimics core YouTube functionalities, allowing users to search for videos, view detailed information, and watch their favorite content directly within the app. It features a responsive and intuitive interface, complete with video recommendations, trending videos, and user comments. Designed to provide a familiar yet unique experience, this clone app ensures users can enjoy and discover videos with ease.",
@@ -71,7 +86,7 @@ const projects = [
     github: 'https://github.com/MoAlhaddad/StealthYoutubeclone'
   },
   {
-    num: '05',
+    num: '06',
     category: 'Frontend',
     title: 'React Excerise App ',
     description: "This React fitness application leverages the ExerciseDB API to provide users with a comprehensive and dynamic platform for their workout needs. The app allows users to explore a wide range of exercises, complete with detailed descriptions and visual demonstrations of each exercise motion. Users can search for specific exercises, filter by muscle groups or equipment, and save their favorite routines. With a clean, user-friendly interface, the app ensures an engaging and efficient fitness experience for users of all levels",
@@ -81,7 +96,7 @@ const projects = [
     github: 'https://github.com/MoAlhaddad/Stealth-fitness-app'
   },
   {
-    num: '06',
+    num: '07',
     category: 'Frontend',
     title: 'Old Nextjs Portifolio Website ',
     description: "This portfolio website, developed with Next.js, showcases your projects and skills in a professional and visually appealing manner. Featuring a clean and modern design, the site includes sections for your bio, work experience, projects, and contact information. Each project is detailed with descriptions, technologies used, and links to live demos or repositories. The site leverages Next.js's server-side rendering for fast loading times and improved SEO, ensuring an optimal user experience for visitors. Perfect for highlighting your expertise and attracting potential clients or employers.",
@@ -91,7 +106,7 @@ const projects = [
     github: 'https://github.com/MoAlhaddad/next-portfolio'
   },
 {
-    num: '07',
+    num: '08',
     category: 'FullStack',
     title: 'Capstone JobSearch Application',
     description:"This job search application, developed as a capstone project using the MERN stack, utilizes the Adzuna API to collect and retrieve comprehensive job data, including historical data, full job details, and standardized job titles. On the frontend, React and antd are employed for styling and formatting, while Redux manages the application's state. Axios handles asynchronous HTTP requests, and react-router-dom with Toastify enhance navigation and user feedback.The backend features robust user authentication using bcrypt and jsonwebtoken, and Mongoose is used for managing the job data in a MongoDB database. Postman was instrumental in testing the API routes and performing CRUD operations. The application allows users to create accounts, log in, search for jobs, filter results, and save jobs for future reference, offering a seamless and secure job search experience.",
@@ -112,7 +127,7 @@ const projects = [
 
 },
 {
-  num: '08',
+  num: '09',
   category: 'FullStack',
   title: 'Capstone WineSearch Application',
   description: "This FullStack Wine Search application, built with React, provides users with an intuitive platform to search and filter wines. Leveraging the power of the React Table library, the app offers advanced sorting, filtering, and pagination features to enhance the user experience. Material-UI is used for the design and layout, ensuring a clean and responsive interface. The application integrates various wine APIs to fetch comprehensive wine data and uses optional chaining for safer data handling. Additionally, SQLTabs is utilized for database management, making the backend robust and efficient. This project demonstrates the effective use of modern web technologies to create a seamless and engaging wine search experience.",
